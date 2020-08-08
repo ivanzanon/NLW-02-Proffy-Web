@@ -1,6 +1,6 @@
-### Proffy Web module
+# Proffy Web module
 
-# Web module for Proffy Application, developed during the Next Level Week event, sponsored by @rocketseat.
+## Web module for Proffy Application, developed during the Next Level Week event, sponsored by @rocketseat.
 
 
 -----------------
