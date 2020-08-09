@@ -1,0 +1,154 @@
+
+#page-login {
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--color-text-in-primary);
+}
+
+.right-panel {
+    height: 100%;
+    width: 50%;
+    background: var(--color-primary);
+    background-image: url(../../assets/images/success-background.svg);
+    background-size: contain;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-container {
+    width: 35rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo-container img {
+    width: 35rem;
+}
+
+.logo-container h2 {
+    width: 30rem;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    margin-top: 1rem;
+}
+
+.form-login-panel {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-login-container {
+    margin-top: 10rem;
+    width: 30rem;
+}
+
+.form-login-container h2{
+    color: black;
+    font-weight: 800;
+    margin-bottom: 0.8rem;
+}
+
+.form-login-container input{
+    border-width: 0.1px;
+    border-color: rgb(211, 211, 211);
+    border-style: solid;
+}
+
+.form-login-container .input-email,
+.form-login-container .input-password {
+    width: 100%;
+    height: 4.5rem;
+    padding: 0 1.6rem;
+    font: 1.2rem Archivo;
+}
+
+.form-login-container .input-email{
+    border-radius: 8px 8px 0px 0px;
+}
+
+.form-login-container .input-password{
+    border-radius: 0px 0px 8px 8px;
+    border-top: none;
+}
+
+.form-login-container .remember-me-container{
+    width: 100%;
+    height: 5rem;
+    font: 1.2rem Poppins;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-login-container .remember-me-container .input-remember-me-container .input-rememberme{
+    height: 1.5rem;
+    width: 1.5rem;
+
+    border-width: 0.1px;
+    border-color: rgb(211, 211, 211);
+    border-style: none;
+    border-radius: 8px;
+}
+
+.form-login-container .remember-me-container .input-remember-me-container label{
+    margin-left: 1rem;
+}
+
+.form-login-container button{
+    width: 100%;
+    height: 4.5rem;
+    font: 1.6rem Archivo;
+    font-weight: 700;
+    color: var(--color-text-base);
+
+    border-style: none;
+    border-radius: 8px;
+    background-color: var(--color-box-footer);
+
+    cursor: pointer;
+}
+
+.form-login-panel footer {
+    padding-top: 10rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-login-panel footer .signup-container{
+    font: 1.4rem Poppins;
+    font-weight: 700;
+}
+
+.form-login-panel footer .signup-container h2{
+    font: 1.4rem Poppins;
+    font-weight: 400;
+}
+
+.form-login-panel footer .is-for-free-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-login-panel footer h2{
+    font: 1rem Poppins;
+    font-weight: 400;
+    margin-right: 0.8rem;
+}
